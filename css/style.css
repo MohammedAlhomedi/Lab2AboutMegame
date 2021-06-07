@@ -1,0 +1,17 @@
+img {
+width: 100px;
+
+}
+
+h5 {
+background-color: blue;
+text-align: center;
+font-size: medium;
+
+}
+
+main section:nth-child(1) p {
+text-decoration: cornflowerblue;
+font-family: 'Times New Roman', Times, serif;
+color:rgb(132, 0, 255);
+}
