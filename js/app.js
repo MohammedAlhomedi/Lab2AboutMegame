@@ -126,27 +126,28 @@ if (flag==true){
 }
 }
 //  adding 7th qestion that has multiple possible correct answers that are stored in an array.
-//let flag = false 
-let userFavcountry = ['Germany', 'England', 'India', 'Chaina', 'Canada'];
+let flag1 = false ;
+let userFavcountry = ['germany', 'england', 'india', 'chaina', 'canada'];
 
- for (let i = 0; i < 6; i++) {
-     let userAnsw = prompt('Can you guess what is my favorite Country?');
-    //let guess = userAnsw.toLowerCase();
+ for ( let i = 0; i < 6; i++) {
+     let userAnsw = prompt('Can you guess what is my favorite Country?').toLowerCase();
+     //let guess = userAnsw.toLowerCase();
 
     for (let j = 0; j < userFavcountry.length; j++){
         if (userAnsw  === userFavcountry[j]) {
             alert('Congrats you got it right!!!');
             userScoure++;
-            flag=true
+            flag1=true
             break;
+            //console.log('hi')
             
-        }
- else{
- alert('Sorry wrong answer, try again')
-  userAnsw = prompt('Can you guess what is my favorite Country?');
- }
-      }if (flag){
+        } //else {
+ //alert('Sorry wrong answer, try again')
+ //userAnsw = prompt('Can you guess what is my favorite Country?');
+ //}
+      }if (flag1){
         break;
     }
+    alert('Sorry wrong answer, try again')
 }
-alert('Your Scoure is'+ userScoure)
+ alert('Your Scoure is'+ userScoure)
