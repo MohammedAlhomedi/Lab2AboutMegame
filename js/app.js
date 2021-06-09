@@ -47,6 +47,7 @@ if (nationality === 'yes' || nationality ==='y'){
 question2();
 
 // Q3
+function question3(){
 let Favfrouit=prompt('Is my favorite frouit Apple?').toLowerCase();
 if (Favfrouit  === 'yes' || Favfrouit ==='y'){
     alert('You are right , my favorite frouit is Apple' );
@@ -56,10 +57,12 @@ if (Favfrouit  === 'yes' || Favfrouit ==='y'){
     alert('ohhh,No')
 
 
-} 
+} }
 
+question3();
 
 // Q4
+function question4(){
 let favcolor =prompt(' Is my favorite color green?').toLowerCase();
 if (favcolor=== 'yes' || favcolor==='y'){
     alert('yes,You are right' );
@@ -70,7 +73,7 @@ if (favcolor=== 'yes' || favcolor==='y'){
 
     
 
-} 
+} }
 
 
 
