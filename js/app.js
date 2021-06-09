@@ -17,14 +17,21 @@ alert( userName+' Please answer with yes or no ');
 let nameUser =prompt(' Is my name  Mohammed ?').toLowerCase();
 //console.log(nameUser);
 
+// Q1
+function question1( ){
 if (nameUser === 'yes' || nameUser ==='y'){
     alert('yes , You are right ');
    // console.log("correct")
    userScoure++;
 }else {
     alert('Wrong Answer')
-} 
+} }
 
+question1();
+
+// Q2
+
+function question2(){
 let nationality=prompt(' Is my nationality Jordanian ?').toLowerCase();
 if (nationality === 'yes' || nationality ==='y'){
     alert('yes, Good Job');
@@ -35,10 +42,11 @@ if (nationality === 'yes' || nationality ==='y'){
 
 
 
-} 
+} }
 
+question2();
 
-
+// Q3
 let Favfrouit=prompt('Is my favorite frouit Apple?').toLowerCase();
 if (Favfrouit  === 'yes' || Favfrouit ==='y'){
     alert('You are right , my favorite frouit is Apple' );
@@ -51,7 +59,7 @@ if (Favfrouit  === 'yes' || Favfrouit ==='y'){
 } 
 
 
-
+// Q4
 let favcolor =prompt(' Is my favorite color green?').toLowerCase();
 if (favcolor=== 'yes' || favcolor==='y'){
     alert('yes,You are right' );
@@ -66,7 +74,7 @@ if (favcolor=== 'yes' || favcolor==='y'){
 
 
 
-
+// Q5
 let favcar=prompt(' Is my favorite car Toyota ?').toLowerCase();
 if (favcar=== 'yes' || favcar==='y'){
     alert('yes , I like Toyota' );
@@ -77,6 +85,7 @@ if (favcar=== 'yes' || favcar==='y'){
 
 }
 
+// Q6
 let favdrink=prompt(' Is my favorite drink coffee ?').toLowerCase();
 if (favdrink=== 'yes' || favdrink==='y'){
     alert('Right, my favorite drink is coffee ?' );
@@ -87,9 +96,9 @@ if (favdrink=== 'yes' || favdrink==='y'){
 
 }
 
-alert(`Thank you for your answer ${ userName }`);
 
-//adding 6th qestion that takes numiruc input 
+
+// Q7  that takes numiric input 
 
 let userInput=prompt('what is my Favorte number between 1 to 8')
 
@@ -125,7 +134,7 @@ if (flag==true){
     break;
 }
 }
-//  adding 7th qestion that has multiple possible correct answers that are stored in an array.
+//  Q8  that has multiple possible correct answers that are stored in an array.
 let flag1 = false ;
 let userFavcountry = ['germany', 'england', 'india', 'chaina', 'canada'];
 
@@ -150,4 +159,6 @@ let userFavcountry = ['germany', 'england', 'india', 'chaina', 'canada'];
     }
     alert('Sorry wrong answer, try again')
 }
- alert('Your Scoure is'+ userScoure)
+ alert('Your Scoure is '+ userScoure + '/ 8');
+ alert(`Thank you for your answer ${ userName }`);
+ 
