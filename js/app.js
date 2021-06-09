@@ -78,7 +78,7 @@ function question4() {
 
     }
 }
-
+question4();
 
 
 // Q5
@@ -93,6 +93,9 @@ function question5() {
 
     }
 }
+
+question5();
+
 
 // Q6
 function question6() {
