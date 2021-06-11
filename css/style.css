@@ -1,17 +1,85 @@
 img {
 width: 100px;
-
+background-color:snow;
 }
 
-h5 {
-background-color: blue;
+nav {
+    float:right;
+    display: inline;
+    color:black ;
+}
+
+nav li{
+     
+        display: inline;
+        padding: 8px;
+}
+.p h3 {
+ background-color: blue;
+}
+
+.Work h3 {
+    background-color:black;
+    text-align: center;
+}
+
+body h3 {
+background-color: bisque;
 text-align: center;
 font-size: medium;
 
 }
 
+
+header {
+    width: 90vw;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb( rgb(0, 41, 128), blue)
+    font-family: cursive;
+    border: 12px groove rgb(214, 164, 99);
+    border-bottom: none;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    padding:18px;
+}
+
+
+section h5 {
+background-color: blue;
+
+}
 main section:nth-child(1) p {
 text-decoration: cornflowerblue;
 font-family: 'Times New Roman', Times, serif;
-color:rgb(132, 0, 255);
+color:rgb(0, 26, 255);
+background-color: beige;
+}
+
+
+main section:nth-child(2){
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: blue;
+
+}
+
+main h4{
+    background-color: chartreuse;
+}
+
+main section:nth-child(3){
+    
+    text-align: left;
+    
+    color: blue;
+}
+
+main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    width: 50%;
+    object-position: right top;
 }
